@@ -1,5 +1,7 @@
 # Finance Tracker
 
+https://lukecutmore.github.io/finance-tracker/?utm_source=chatgpt.com
+
 ## About the Project
  Finance Tracker is a simple web application I built as my second main personal coding project.
 
@@ -64,3 +66,4 @@ I also encountered a few bugs that challenged me, particularly when working on t
 One of the biggest things I've noticed is that some of the fundamentals are starting to feel more natural, especially structuring HTML and understanding JavaScript logic.
 
 This has been my strongest project so far, and it's helped me build confidence in my ability to develop applications.
+
