@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #f5f5f5;
+   font-family: Arial, sans-serif;
+   margin: 0px;
+
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+#balance, #income, #expenses {
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 10px;
+    margin: px;
+    flex: 1;
+    font-size: 20px;
+}
+
+#balance-value, #income-value, #expenses-value {
+    font-size: 28px;
+    font-weight: bold;   
+}
+
+
+#income-value, #balance-value  {
+    color:#4ade80;
+}
+
+#expenses-value {
+    color:#f87171;
+}
+
+#dashboard {
+    display: flex;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#form {
+    background-color: #242424;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#description, #amount, #type {
+    background-color: #363636;
+    color: #f5f5f5;
+    padding: 12px;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+#submit-button {
+    background-color: #4ade80;
+    color: #121212;
+    padding: 12px;
+    border-radius: 6px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit-button:hover {
+        background-color: #22c55e;
+}
+
+#transaction-list {
+    list-style: none;
+    padding: 0;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+#transaction-list li {
+    background-color: #242424;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#transaction-list span {
+font-size: 16px;
+font-weight: bold;
+}
+
+#transaction-list button {
+    background-color: #7f1d1d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#transaction-list button:hover {
+    background-color: #991b1b;   
+}
+
+.income {
+    color: #4ade80;
+}
+
+.expense {
+    color: #f87171;
+}
+
+@media (max-width: 600px) {
+    #dashboard {
+        flex-direction: column;
+    }
+}
+
+h2, h3 {
+    padding-left: 20px;
+}
